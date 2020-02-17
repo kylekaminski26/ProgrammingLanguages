@@ -1,0 +1,11 @@
+classify(N, 'big') :-
+  N > 100.
+  
+classify(N, 'medium') :-
+  N >= 50, 
+  N =< 100.
+  
+classify(N, 'small') :-
+  N < 50.
+  
+contains_big(L) if classify(L, 'big').

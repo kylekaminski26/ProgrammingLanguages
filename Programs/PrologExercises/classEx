@@ -1,0 +1,26 @@
+% pos_list(+L, -Positives)
+% Positives is a list of the positive numbers in list L.
+%Alternate way to code this line below:
+%pos_list([ ], Positives) :- Positives = [ ].
+
+pos_list([ ], [ ]).
+pos_list([ H | T ], [ H | TPos ]) :- 
+  H > 0,
+  pos_list(T, TPos).
+pos_list([ H | T ], TPos ) :-
+  H =< 0,
+  pos_list(T, TPos).
+  
+%sum_list(+L, -Sum).
+%Sum is the sum of the numbers in list L.
+
+sum_list([ ], 0).
+sum_list([ H | T ], Sum) :-
+  sum_list(T, TSum),
+  Sum is H + TSum.
+  
+%The below code will return false because you cannot add T and Sum, they must be unified (TSum variable).
+%sum_list([ ], 0).
+%sum_list([ H | T ], Sum) :-
+%  sum_list(T, Sum),
+%  Sum is H + TSum.

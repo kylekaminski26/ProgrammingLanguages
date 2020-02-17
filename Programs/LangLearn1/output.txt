@@ -1,0 +1,69 @@
+Enter number A: 
+2
+Enter number B: 
+2
+Sum: 4.0
+
+Enter number A: 
+0
+Enter number B: 
+0
+Sum: 0.0
+
+Enter number A: 
+-3
+Enter number B: 
+2
+Sum: -1.0
+
+Enter number A: 
+-3
+Enter number B: 
+-10
+Sum: -13.0
+
+Enter number A: 
+pizza
+Please enter a number next time. A defaulted to 0.
+Enter number B: 
+5
+Sum: 5.0
+
+Enter number A: 
+pizza
+Please enter a number next time. A defaulted to 0.
+Enter number B: 
+pie
+Please enter a number next time. B defaulted to 0.
+Sum: 0.0
+
+Enter number A: 
+432414321
+Enter number B: 
+-431
+Sum: 4.3241389E8
+
+Enter number A: 
+0.433
+Enter number B: 
+0.321312
+Sum: 0.754312
+
+Enter number A: 
+43214321
+Enter number B: 
+-34214321
+Sum: 9000000.0
+
+Enter number A: 
+10
+Enter number B: 
+-10.0
+Sum: 0.0
+
+Enter number A: 
+-1/2
+Please enter a number next time. A defaulted to 0.
+Enter number B: 
+0.7
+Sum: 0.7

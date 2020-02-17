@@ -1,0 +1,45 @@
+> ,load schemehw.scm
+> (D sample1)
+3
+> (H sample1)
+5
+> (Pos1 sample1)
+4
+> (Pos2 sample1)
+2
+> (Neg1 sample1)
+6
+> (Neg2 sample1)
+8
+> (D_given_Pos1 sample1)
+3/4
+> (D_given_Pos2 sample1)
+3/2
+> (H_given_Neg1 sample1)
+5/6
+> (H_given_Neg2 sample1)
+5/8
+> (results sample1)
+neither
+> (D sample2)
+1
+> (H sample2)
+5
+> (Pos1 sample2)
+2
+> (Pos2 sample2)
+5
+> (Neg1 sample2)
+6
+> (Neg2 sample2)
+3
+> (D_given_Pos1 sample2)
+1/2
+> (D_given_Pos2 sample2)
+1/5
+> (H_given_Neg1 sample2)
+5/6
+> (H_given_Neg2 sample2)
+5/3
+> (results sample2)
+neither
